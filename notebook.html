@@ -14,15 +14,34 @@
             background-repeat: no-repeat;
         }
 
-        .sidebar {
-            height: 100vh;
-            width: 300px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            background-color: #ae8080;
-            padding-top: 20px;
+      .sidebar {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ccb3b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.logo {
+    width: 180px;
+    height: 180px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 
 
@@ -32,7 +51,13 @@
 
     <div class="sidebar">
 
-           <div class="container">
+        <div class="logo-container text-light">
+        <img src="https://i.pinimg.com/736x/fb/5e/67/fb5e670ac4c40f544b5d750ee51cffd5.jpg" 
+         alt="flowerchikaawalogo" 
+         class="rounded-circle logo">
+        </div>  
+
+    <div class="container">
          <a class="nav-link" href="">Dashboard</a>
     </div>
     <br>
